@@ -1,0 +1,32 @@
+import os
+import csv
+
+ #declared variable
+
+total_votes=[]
+candidate_list[]
+Khan[]
+
+#path to source file
+csvpath=os.path.join('Resources','election_data.csv')
+
+#open file
+with open(csvpath, newline='') as csvfile:
+    csvreader = csv.reader(csvfile, delimiter=',')
+      next(csvreader)
+
+    for row in csvreader:
+        
+        vote_id.append(int(row[0])
+        county(row[1])
+        candidate(row[2])
+
+#total votes
+total_votes=len(vote_id)
+
+print(total_list)
+
+# complete list of candidate
+
+for candidate_list in range candidate:
+    if "Khan" 
